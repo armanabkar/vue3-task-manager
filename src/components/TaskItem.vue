@@ -32,7 +32,7 @@
   </div>
 </template>
 <script lang="ts">
-import {  computed } from "vue"
+import { computed } from "vue"
 import { useStore } from "@/store"
 import { MutationType } from "@/store/mutations"
 export default {
@@ -40,6 +40,7 @@ export default {
   props: {
     id: { type: Number, required: true },
   },
+  // eslint-disable-next-line
   setup(props: any) {
     const store = useStore()
 
