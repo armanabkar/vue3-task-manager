@@ -50,6 +50,66 @@ export const actions: ActionTree<State, State> & Actions = {
         completed: true,
         editing: false,
       },
+      {
+        id: 3,
+        title: "Build a lorem ipsum generator app",
+        description:
+          "Eu Lorem esse sint irure do duis nisi commodo nostrud. Eu dolore Lorem do consectetur dolor esse nostrud Lorem id nulla. Id tempor esse in sint non consectetur culpa. Tempor pariatur velit occaecat sunt nostrud voluptate aliquip officia nulla eu eu reprehenderit. Ipsum aliqua mollit cupidatat ex.",
+        createdBy: "Emmanuel John",
+        assignedTo: "Jon Doe",
+        completed: false,
+        editing: false,
+      },
+      {
+        id: 4,
+        title: "Lorem Ipsum is the best!",
+        description:
+          "Tempor exercitation laborum amet sunt cillum ad. Dolor culpa fugiat ipsum dolore Lorem eu. Culpa elit id Lorem pariatur id nostrud aute qui officia quis veniam.",
+        createdBy: "Arman Abkar",
+        assignedTo: "Jon Skywalker",
+        completed: true,
+        editing: false,
+      },
+      {
+        id: 5,
+        title: "Learn React and Angular",
+        description:
+          "Adipisicing amet sint quis amet fugiat. Dolor non eiusmod eu elit. Eu nisi ut amet voluptate. Eu fugiat deserunt pariatur anim ea.",
+        createdBy: "Emmanuel John",
+        assignedTo: "Doe Jon",
+        completed: false,
+        editing: false,
+      },
+      {
+        id: 6,
+        title: "Help Luke Skywalker",
+        description:
+          "Sit veniam id enim qui incididunt adipisicing eiusmod voluptate ad labore ipsum consectetur. Officia sit eiusmod consequat commodo ex officia ad occaecat minim dolore exercitation nostrud sunt. Voluptate irure ad id veniam proident.",
+        createdBy: "Emmanuel John",
+        assignedTo: "Han Solo",
+        completed: false,
+        editing: false,
+      },
+      {
+        id: 7,
+        title: "Marry Han Solo",
+        description:
+          "Nisi ipsum dolore sit ipsum consectetur velit deserunt aute adipisicing aliquip. Incididunt duis cillum aliquip qui officia laborum. Aliqua eu nulla ipsum ex eu. Nostrud ex anim Lorem irure. Laborum ea magna reprehenderit elit anim mollit sunt pariatur laborum. Voluptate laboris reprehenderit sint officia esse ad dolor. Commodo sint eiusmod mollit sunt mollit esse laborum.",
+        createdBy: "Arman Abkar",
+        assignedTo: "Leia Skywalker",
+        completed: true,
+        editing: false,
+      },
+      {
+        id: 8,
+        title: "Defeat Dark Vader",
+        description:
+          "Minim nisi nulla ut nulla adipisicing dolor qui nostrud magna veniam commodo. Eu aute duis dolore cillum labore dolore cillum est. Eu cillum cillum tempor nisi sint mollit sint veniam duis esse consectetur do. Ex irure fugiat excepteur do. Ad cupidatat fugiat voluptate dolor dolor. Elit dolor et laborum sint ullamco et ad veniam irure do dolor nostrud do aliqua.",
+        createdBy: "Emmanuel John",
+        assignedTo: "Luke Skywalker",
+        completed: false,
+        editing: false,
+      },
     ]);
   },
 

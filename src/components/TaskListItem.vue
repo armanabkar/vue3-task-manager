@@ -3,7 +3,7 @@
   <td>
     <input type="checkbox" :checked="completed" @change="toggleCompletion()" />
   </td>
-  <td>{{ title }} <strong>(C)</strong></td>
+  <td>{{ title }}</td>
   <td>{{ createdBy }}</td>
   <td>{{ assignedTo }}</td>
   <td>

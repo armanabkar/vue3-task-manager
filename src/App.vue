@@ -23,9 +23,12 @@ export default defineComponent({
 <template>
   <div class="container mx-auto mt-3">
     <h1
-      class="is-size-4 has-text-centered p-1 has-text-weight-bold has-text-info"
+      class="is-size-2 has-text-centered p-1 has-text-weight-bold has-text-info"
     >
-      Vue 3 Task Management App with TypeScript and Vuex 4
+      Vue 3 Task Management
+      <sub class="is-size-4 has-text-dark"
+        >Built with TypeScript and Vuex 4</sub
+      >
     </h1>
 
     <div v-if="loading">
@@ -41,4 +44,8 @@ export default defineComponent({
 </template>
 <style>
 @import "~bulma/css/bulma.css";
+
+sub {
+  display: block;
+}
 </style>

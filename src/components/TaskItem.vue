@@ -17,7 +17,7 @@
           </div>
           <div class="content">
             <p class="subtitle is-6">
-              Description: <br />
+              <b>Description:</b> <br />
               {{ task.description }}
             </p>
           </div>

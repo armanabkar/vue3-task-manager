@@ -73,7 +73,8 @@ export default defineComponent({
 </script>
 <style scoped>
 table {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
 .fa {
   font-size: 1.2rem;
