@@ -65,7 +65,7 @@
   </div>
 </template>
 <script lang="ts">
-import { reactive, toRefs, computed, onMounted } from "vue"
+import { reactive, toRefs, onMounted } from "vue"
 import { useStore } from "@/store"
 import { TaskItem } from "@/store/state"
 import { MutationType } from "@/store/mutations"
@@ -84,15 +84,9 @@ export default {
     })
     const store = useStore()
 
-    const getTaskById = computed(() =>
-      store.getters.getTaskById(Number(props.id))
-    )
-    console.log("task by id", getTaskById)
-
     const setFields = () => {
       const task = store.getters.getTaskById(Number(props.id))
       if (task) {
-        console.log("task si kolo", task)
         state.title = task.title
         state.createdBy = task.createdBy
         state.assignedTo = task.assignedTo

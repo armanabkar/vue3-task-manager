@@ -73,7 +73,6 @@ export const mutations: MutationTree<State> & Mutations = {
       ...state.tasks[task],
       editing: !state.tasks[task].editing,
     };
-    console.log("taskino", state.tasks[task]);
   },
   [MutationType.UpdateTask](state, Task) {
     state.tasks = state.tasks.map((task) => {
@@ -86,7 +85,6 @@ export const mutations: MutationTree<State> & Mutations = {
 
   [MutationType.SetLoading](state, value) {
     state.loading = value;
-    console.log("I am loading...");
   },
   [MutationType.SetCreateModal](state, value) {
     state.showCreateModal = value;

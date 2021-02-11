@@ -54,11 +54,7 @@ export default defineComponent({
     const showTaskModal = computed(() => store.state.showTaskModal)
     const showTaskId = computed(() => store.state.showTaskId)
 
-    const tasks = computed(() => {
-      console.log(store.state.tasks)
-      return store.state.tasks
-    })
-    console.log({ tasks })
+    const tasks = computed(() => store.state.tasks)
     return {
       showCreateModal,
       setModal,
